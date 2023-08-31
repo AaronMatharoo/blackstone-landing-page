@@ -3,5 +3,4 @@
 ## Live demo
 
 This site is live at  [https://aaronnn.com/](https://aaronnn.com/)# frontend-landing-page
-# frontend-landing-page
 # blackstone-landing-page
