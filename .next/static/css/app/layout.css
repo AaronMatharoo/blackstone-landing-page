@@ -1711,6 +1711,14 @@ html {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -1885,6 +1893,11 @@ html {
 .shadow-xl {
   --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.12), 0 10px 10px -5px rgba(0, 0, 0, 0.02);
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 10px 10px -5px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-2xl {
+  --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 .backdrop-blur-sm {
@@ -2135,6 +2148,16 @@ html {
     padding-bottom: 2rem;
   }
 
+  .md\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .md\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
   .md\:pb-16 {
     padding-bottom: 4rem;
   }
@@ -2175,6 +2198,10 @@ html {
 
   .lg\:mt-0 {
     margin-top: 0px;
+  }
+
+  .lg\:block {
+    display: block;
   }
 
   .lg\:max-w-none {
